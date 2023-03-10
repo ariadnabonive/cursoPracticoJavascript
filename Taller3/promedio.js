@@ -10,8 +10,8 @@ function calcularMediaAritmetica(lista){
     // for (let i = 0; i < lista.length; i++){
     // sumaLista = sumaLista + lista[i];
     // }  
-    //en lugar de usar el for podemos usar el método de array .reduce
 
+    //en lugar de usar el for podemos usar el método de array .reduce
     const sumaLista = lista.reduce(
         function (valorAcumulado = 0, nuevoElemento){
             return valorAcumulado +  nuevoElemento;
